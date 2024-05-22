@@ -5,7 +5,7 @@
 
 [+] Install dependencies. express, nodemon(dev dep.). ✅
 
-[+] Create a express server (server.js)
+[+] Create a express server (server.js). ✅
 
 [+] do frontend part
 
