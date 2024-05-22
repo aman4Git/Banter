@@ -17,6 +17,11 @@ app.get('/', (req, res) => {
 //Socket connection
 const io = require('socket.io')(http);
 
+//Listen for connection
 io.on('connection', (socket) => {
-    console.log('a user connected');
+
+    //Receive data from client
+    socket.on('message', (msg) => {
+        socket.broadcast.emit('message', msg);
+    })
 });

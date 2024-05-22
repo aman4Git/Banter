@@ -11,8 +11,8 @@
 
 [+] Install socket.io, Setup socket.io in server.js and client client.js. ✅
 
-[+] Client send message logic in client.js
+[+] Client send message logic in client.js. ✅
 
-[+] Receive message on server and broadcast to all clients
+[+] Receive message on server and broadcast to all clients. ✅
 
-[+] Receive message on client and display it. scrollToBottom etc...
+[+] Receive message on client and display it. scrollToBottom etc. ✅
